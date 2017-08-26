@@ -1,0 +1,868 @@
+body{
+	overflow-X: hidden;
+}
+
+.padding{
+	padding: 0px;
+}
+
+.bg{
+	position: fixed;
+	height: 100%;
+	padding: 0px;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	opacity: 0.6;
+	z-index: -999;
+}
+
+.img_puzzle{
+	position: fixed;
+	top: 50%;
+	left: 0px;
+	height: 0%;
+	min-height: 0px;
+	padding: 0px;
+	z-index: 800;
+	overflow: hidden;
+}
+
+.img_puzzle_1{
+	height: 50%;
+	padding: 0px;
+	background-color: #fff;
+	opacity: 1;
+}
+
+.img_puzzle_2{
+	height: 50%;
+	padding: 0px;
+	background-color: #000;
+	opacity: 1;
+}
+
+.img_puzzle_3{
+	height: 50%;
+	padding: 0px;
+	background-color: #000;
+	opacity: 1;
+}
+
+.img_puzzle_4{
+	height: 50%;
+	padding: 0px;
+	background-color: #fff;
+	opacity: 1;
+}
+
+.img1{
+	background-image: url("../images/1.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img2{
+	background-image: url("../images/2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img3{
+	background-image: url("../images/3.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img4{
+	background-image: url("../images/4.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img5{
+	background-image: url("../images/5.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img6{
+	background-image: url("../images/6.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img7{
+	background-image: url("../images/7.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img8{
+	background-image: url("../images/8.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img9{
+	background-image: url("../images/9.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img10{
+	background-image: url("../images/10.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img11{
+	background-image: url("../images/11.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img12{
+	background-image: url("../images/12.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img13{
+	background-image: url("../images/13.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img14{
+	background-image: url("../images/14.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img15{
+	background-image: url("../images/15.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img16{
+	background-image: url("../images/16.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img17{
+	background-image: url("../images/17.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img18{
+	background-image: url("../images/18.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img19{
+	background-image: url("../images/19.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img20{
+	background-image: url("../images/20.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img21{
+	background-image: url("../images/21.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img22{
+	background-image: url("../images/22.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img23{
+	background-image: url("../images/23.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img24{
+	background-image: url("../images/24.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img25{
+	background-image: url("../images/25.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img26{
+	background-image: url("../images/26.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img27{
+	background-image: url("../images/27.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img28{
+	background-image: url("../images/28.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img29{
+	background-image: url("../images/29.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img30{
+	background-image: url("../images/30.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img31{
+	background-image: url("../images/31.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img32{
+	background-image: url("../images/32.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img33{
+	background-image: url("../images/33.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img34{
+	background-image: url("../images/34.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img35{
+	background-image: url("../images/35.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img36{
+	background-image: url("../images/36.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img37{
+	background-image: url("../images/37.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img38{
+	background-image: url("../images/38.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img39{
+	background-image: url("../images/39.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img40{
+	background-image: url("../images/40.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img41{
+	background-image: url("../images/41.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img42{
+	background-image: url("../images/42.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img43{
+	background-image: url("../images/43.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img44{
+	background-image: url("../images/44.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img45{
+	background-image: url("../images/45.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img46{
+	background-image: url("../images/46.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img47{
+	background-image: url("../images/47.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img48{
+	background-image: url("../images/48.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img49{
+	background-image: url("../images/49.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img50{
+	background-image: url("../images/50.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img51{
+	background-image: url("../images/51.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img52{
+	background-image: url("../images/52.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img53{
+	background-image: url("../images/53.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img54{
+	background-image: url("../images/54.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img55{
+	background-image: url("../images/55.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img56{
+	background-image: url("../images/56.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img57{
+	background-image: url("../images/57.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img58{
+	background-image: url("../images/58.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img59{
+	background-image: url("../images/59.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img60{
+	background-image: url("../images/60.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img61{
+	background-image: url("../images/61.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img62{
+	background-image: url("../images/62.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img63{
+	background-image: url("../images/63.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img64{
+	background-image: url("../images/64.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img65{
+	background-image: url("../images/65.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img66{
+	background-image: url("../images/66.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img67{
+	background-image: url("../images/67.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img68{
+	background-image: url("../images/68.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img69{
+	background-image: url("../images/69.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img70{
+	background-image: url("../images/70.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img71{
+	background-image: url("../images/71.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img72{
+	background-image: url("../images/72.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img73{
+	background-image: url("../images/73.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img74{
+	background-image: url("../images/74.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.img75{
+	background-image: url("../images/75.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.height{
+	height: 100%;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.question_content{
+	position: relative;
+    height: 50%;
+    min-height: 0px;
+    padding: 0px;
+	z-index: 0;
+}
+
+.question_content_child{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    height: 100%;
+    padding: 0px;
+	z-index: -1;
+}
+
+.numbers_block{
+	position: relative;
+	height: 100%;
+	padding: 0px;
+	margin-left: 3%;
+	z-index: 1;
+}
+
+.numbers_block_child{
+	position: absolute;
+	top: 0px;
+	left: -100%;
+	height: 100%;
+	padding: 0px;
+	/*border-radius: 50px;
+	border: 2px solid #000;
+	background-color: #fff;
+	opacity: 0;*/
+	visibility: hidden;
+	transition: all 2s ease;
+}
+
+.line_parent{
+	position: relative;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	padding: 0px;
+	margin-top: 7px;
+	border-radius: 15px;
+	z-index: 0;
+}
+
+.hide_line{
+	position: absolute;
+	top: -2px;
+    left: 0px;
+    padding: 0px;
+    height: 26px;
+    z-index: -1;
+}
+
+.line{
+	display: block;
+	height: 100%;
+	color: #fff;
+	border-radius: 15px;
+	background-color: rgba(0,0,0,1);
+	padding: 0px;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 0;
+	transition: all 1s ease;
+}
+
+.childtext{
+	height: 100%;
+	padding: 0px;
+	text-align: center;
+}
+
+.first:hover{
+	background-color: #FF4BF9;
+	color: #000;
+}
+
+.second:hover{
+	background-color: orange;
+	color: #000;
+}
+
+.third:hover{
+	background-color: #FF2323;
+	color: #000;
+}
+
+.fourth:hover{
+	background-color: #43A2BF;
+	color: #000;
+}
+
+.fifth:hover{
+	background-color: #0AFF27;
+	color: #000;
+}
+
+.sixth:hover{
+	background-color: #43A2BF;
+	color: #000;
+}
+
+.seventh:hover{
+	background-color: #0AFF27;
+	color: #000;
+}
+
+.eighth:hover{
+	background-color: #FF41D0;
+	color: #000;
+}
+
+.ninth:hover{
+	background-color: #FF2323;
+	color: #000;
+}
+
+.tenth:hover{
+	background-color: orange;
+	color: #000;
+}
+
+/* tveri axyusak */
+
+.height_1{
+	position: relative;
+	min-height: 0px;
+    height: 0px;
+    padding: 0px;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.answer_content_absolute{
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	width: 100%;
+    height: 330px;
+	padding: 15px 0px 15px 0px;
+	border-radius: 220px;
+	z-index: -1;
+}
+
+.answer_content{
+	width: 100%;
+    height: 295px;
+    margin: 0px auto;
+	padding: 15px 0px 15px 0px;
+    background-color: green;
+    border-radius: 220px;
+	z-index: 0;
+}
+
+#answer_content_center{
+	width: 600px;
+	height: 60px;
+	margin: 15px auto;
+	background-color: #fff;
+	color: #000;
+	font-size: 60px;
+	text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+	z-index: 0;
+}
+
+.answer_div{
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	margin: 35px auto;
+	color: #000;
+	font-size: 40px;
+	z-index: 0;
+}
+
+.left{
+	float: left;
+	font-weight: bold;
+	z-index: 0;
+}
+
+.right{
+	float: right;
+	font-weight: bold;
+	z-index: 0;
+}
+
+#first_answer{
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	padding: 0px 20px 0px 20px;
+	background-color: #fff;
+	border-radius: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 0;
+}
+
+#second_answer{
+	height: 50px;
+	line-height: 50px;
+	float: right;
+	padding: 0px 20px 0px 20px;
+	background-color: #fff;
+	border-radius: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 0;
+}
+
+#third_answer{
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	padding: 0px 20px 0px 20px;
+	background-color: #fff;
+	border-radius: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 0;
+}
+
+#fourth_answer{
+	height: 50px;
+	line-height: 50px;
+	float: right;
+	padding: 0px 20px 0px 20px;
+	background-color: #fff;
+	border-radius: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.cursor_hover:hover{
+	border: 3px solid red;
+}
+
+.time_content{
+	width: 230px;
+	height: 0px;
+	line-height: 230px;
+	margin: 20px auto;
+	border-radius: 165px;
+	background-color: #1CFF14;
+	color: #000;
+	text-align: center;
+	font-size: 180px;
+	overflow: hidden;
+}
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
